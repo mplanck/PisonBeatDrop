@@ -1,2 +1,3 @@
-# PisonBeatDrop
-Toy app for trying out the Pison SDK
+## PisonBeatDrop 
+
+Toy app to test Pison Unity SDK
