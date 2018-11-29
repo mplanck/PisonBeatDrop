@@ -983,6 +983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeBucketColumn: 0
+  resetDelayInSeconds: 0.3
 --- !u!65 &1810942784
 BoxCollider:
   m_ObjectHideFlags: 0
