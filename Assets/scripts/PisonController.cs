@@ -44,7 +44,7 @@ namespace Pison
         public float keyfactor = .1f;
 
         public CircularBuffer<float> liftBuffer = new CircularBuffer<float>(1000);
-
+        
         public void receiveFrame(PisonFrame frame)
         {
             //Frame data
@@ -57,8 +57,9 @@ namespace Pison
             battery = frame.batteryLife;
             timeStamp = frame.timeStamp;
             liftValue = Mathf.Abs(frame.filteredFrames["MotionSilencer"].channels[0]);
+            
             liftBuffer.PushFront(liftValue);
-
+            
             // Set rot to the delta between the starting orientation of the hand and the current orientation
             if (startRot == null)
             {
@@ -141,6 +142,7 @@ namespace Pison
             {
                 signalText.text = $"{liftValue} :Signal";
             }
+
         }
 
         //Easy set of functions to call in order to get device euler angles

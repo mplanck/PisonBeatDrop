@@ -215,4 +215,9 @@ MonoBehaviour:
   assetRelativeBeatScriptPath: hundred_dollar_bills.txt
   bpm: 105
   beatReadTimeOffset: 1.2
-  mode: 0
+  beatMode: 0
+  bufferSampleFrequencyInHz: 30
+  bufferSampleFlushFrequencyInHz: 1
+  assetRelativeSampleCSV: debug_controller_output.csv
+  controller: {fileID: 0}
+  sensor: {fileID: 0}

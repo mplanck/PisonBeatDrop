@@ -10,7 +10,7 @@ namespace Pison
     public new Rigidbody    rigidbody;
     public     GameObject   fracturedCubePrefab;
     public     float        initialVelocityDown = 1.0f;
-    public     CubeSpawner  spawner;
+    public     GameManager  spawner;
     public     int          bucketColumn;
 
     private bool     exploded_ = false;
@@ -46,6 +46,7 @@ namespace Pison
 
       spawner.PulseColumn(bucketColumn, Color.white);
       spawner.AddToScore(1);
+      spawner.sensor.ResetActiveBucketColumn();
       var fracturedCube =
         GameObject.Instantiate(fracturedCubePrefab, this.transform.position, this.transform.rotation);
       var fracturedCubePawn = fracturedCube.GetComponent<FracturedCubePawn>();

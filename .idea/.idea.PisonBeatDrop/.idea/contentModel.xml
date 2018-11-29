@@ -34,6 +34,9 @@
               </e>
             </e>
           </e>
+          <e p="CsvHelper" t="Include">
+            <e p="CsvHelper.xml" t="Include" />
+          </e>
           <e p="Pison" t="Include">
             <e p="Controller.cs" t="Include" />
             <e p="FilteredFrame.cs" t="Include" />
@@ -615,12 +618,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ActiveBucketSensor.cs" t="Include" />
           <e p="CircularBuffer.cs" t="Include" />
           <e p="CubeBuster.cs" t="Include" />
           <e p="CubePawn.cs" t="Include" />
-          <e p="CubeSpawner.cs" t="Include" />
           <e p="DebugScreenText.cs" t="Include" />
           <e p="FracturedCubePawn.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="PisonBeatReader.cs" t="Include" />
           <e p="PisonBeatWriter.cs" t="Include" />
           <e p="PisonController.cs" t="Include" />
