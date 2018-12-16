@@ -10,7 +10,7 @@ namespace Pison
     public new Rigidbody    rigidbody;
     public     GameObject   fracturedCubePrefab;
     public     float        initialVelocityDown = 1.0f;
-    public     GameManager  spawner;
+    public     PisonGameManager  spawner;
     public     int          bucketColumn;
 
     private bool     exploded_ = false;

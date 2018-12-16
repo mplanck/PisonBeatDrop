@@ -41,6 +41,7 @@ namespace Pison
 				busterActivated_ = true;
 				var cubeBuster = buster.GetComponent<CubeBuster>();
 				cubeBuster.cursor = this;
+				cubeBuster.transform.localScale = Vector3.one;
 			}
 		}
 

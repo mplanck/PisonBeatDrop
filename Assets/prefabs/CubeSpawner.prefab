@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1631782653729664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 4.31, z: 0}
-  m_LocalScale: {x: 9.876286, y: 1.369, z: 1.8888491}
+  m_LocalPosition: {x: -0.04, y: 9.76, z: 0}
+  m_LocalScale: {x: 9.581, y: 1.369, z: 1.8888491}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
   assetRelativeAudioPath: hundred_dollar_bills.wav
   assetRelativeBeatScriptPath: hundred_dollar_bills.txt
   bpm: 105
-  beatReadTimeOffset: 1.2
+  beatReadTimeOffset: 1.3
   beatMode: 0
   bufferSampleFrequencyInHz: 30
   bufferSampleFlushFrequencyInHz: 1

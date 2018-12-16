@@ -66,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1787030745582382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.49, z: 0}
+  m_LocalPosition: {x: 0, y: -6.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4175139514377686}
@@ -153,10 +153,10 @@ MonoBehaviour:
   y: 0
   z: 0
   liftValue: 0
-  minX: -5
-  maxX: 5
+  minX: -4
+  maxX: 4
   qfactor: 20
-  keyfactor: 0.25
+  keyfactor: 0.15
 --- !u!114 &114958943103363348
 MonoBehaviour:
   m_ObjectHideFlags: 1

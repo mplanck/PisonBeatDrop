@@ -10,7 +10,7 @@ using Random = UnityEngine.Random;
 
 namespace Pison
 {
-    public class GameManager : MonoBehaviour
+    public class PisonGameManager : MonoBehaviour
     {
         public class PisonBeatDropRecord
         {

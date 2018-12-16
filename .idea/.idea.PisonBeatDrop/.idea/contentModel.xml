@@ -624,12 +624,12 @@
           <e p="CubePawn.cs" t="Include" />
           <e p="DebugScreenText.cs" t="Include" />
           <e p="FracturedCubePawn.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
           <e p="PisonBeatReader.cs" t="Include" />
           <e p="PisonBeatWriter.cs" t="Include" />
           <e p="PisonController.cs" t="Include" />
           <e p="PisonCursor.cs" t="Include" />
           <e p="PisonDisplaySignalLine.cs" t="Include" />
+          <e p="PisonGameManager.cs" t="Include" />
           <e p="PlaneConstrainer.cs" t="Include" />
           <e p="TerminalPawn.cs" t="Include" />
         </e>
